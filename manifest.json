@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "bili 404 video",
+  "version": "1.0",
+  "description": "Record the censored video information in the console.",
+  "icons": {
+    "48": "image/hutao.png"
+  },
+  "browser_action": {
+    "default_icon": "image/hutao.png"
+  },
+  "background": {
+    "scripts": ["biliAction.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "activeTab",
+    "<all_urls>"
+  ]
+}
